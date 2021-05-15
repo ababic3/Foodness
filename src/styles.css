@@ -1,1 +1,204 @@
 /* You can add global styles to this file, and also import other style files */
+.nopadding img{
+    padding: 0 !important;
+    margin:0px 0px 0px 100px; 
+}
+.mainPhoto img{max-width:100%;}
+
+.button2 {
+    background-color: #FF820E;
+    padding: 14px 30px;
+    border-radius: 39px;
+    border: none;
+    color: white;
+    width: 128px;
+}
+
+.button1 {
+    background-color: transparent;
+    padding: 14px 30px;
+    border-radius: 39px;
+    border: 1px solid #FF820E;
+    width: 128px;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    /*background-image: url("images/Group 1.png");*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+
+ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 10px;
+}
+
+.page-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}
+
+#total {
+    font-weight: bold;
+}
+
+
+/* body{background-color: #131414;} */
+
+.imgPlaceholder {
+    width: 300px;
+    height: 350px;
+    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.98)), url(../assets/images/calum-lewis-8Nc_oQsc2qQ-unsplash.jpg);
+    */background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.mainText {
+    padding-top: 120px;
+}
+
+.mainText h4 {
+    color: #565656;
+    font-size: 25px;
+}
+
+.mainText h1 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 85px;
+}
+
+.article-item {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.article-item a {
+    color: white;
+}
+
+article {
+    background-color: #FF820E;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.slick-prev {
+    padding: 20px 15px;
+}
+
+.slick-prev,
+.slick-next {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.line {
+    height: 1px;
+    background-color: #FF820E;
+}
+
+
+/*zig zag effect*/
+
+#d-wrapper .zig-zag-top:before {
+    background: linear-gradient(-45deg, #C4C4C4 16px, red 16px, blue 16px, transparent 0), linear-gradient(45deg, #C4C4C4 16px, transparent 0);
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size: 22px 32px;
+    content: " ";
+    display: block;
+    height: 32px;
+    width: 100%;
+    position: relative;
+    bottom: 64px;
+    left: 0;
+}
+
+#d-wrapper .zig-zag-top {
+    margin: 32px 0;
+    margin-bottom: 0;
+    background: #C4C4C4;
+}
+
+#d-wrapper .zig-zag-top {
+    padding: 32px 0;
+}
+
+#d-wrapper p,
+#d-wrapper h1 {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+#d-wrapper p {
+    text-align: center;
+}
+
+
+/*zig zag effect*/
+
+
+/*slick items*/
+
+.slick-item {
+    color: white;
+}
+
+.slick-item h3 {
+    font-weight: 600;
+    font-size: 25px;
+    padding: 25px;
+    padding-bottom: 145px;
+}
+
+.slick-item a {
+    font-size: 25px;
+    padding: 25px;
+    color: white;
+}
+
+.slick-item p {
+    padding-left: 25px;
+}
+/*slick items*/
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        display: none;}
+    }

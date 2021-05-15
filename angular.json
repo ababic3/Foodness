@@ -29,7 +29,14 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/scripts/add_field.js",
+              "src/assets/scripts/func.js",
+              "src/assets/dynamically-add-remove-field/index.php",
+              "src/assets/dynamically-add-remove-field/name.php",
+              "src/assets/dynamically-add-remove-field/tbl_name.sql",
+              "src/assets/php/name.php"
+            ]
           },
           "configurations": {
             "production": {
