@@ -1,0 +1,40 @@
+/*zig zag effect*/
+
+#d-wrapper .zig-zag-top:before {
+    background: linear-gradient(-45deg, #C4C4C4 16px, red 16px, blue 16px, transparent 0), linear-gradient(45deg, #C4C4C4 16px, transparent 0);
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size: 22px 32px;
+    content: " ";
+    display: block;
+    height: 32px;
+    width: 100%;
+    position: relative;
+    bottom: 64px;
+    left: 0;
+}
+
+#d-wrapper .zig-zag-top {
+    margin: 32px 0;
+    margin-bottom: 0;
+    background: #C4C4C4;
+}
+
+#d-wrapper .zig-zag-top {
+    padding: 32px 0;
+}
+
+#d-wrapper p,
+#d-wrapper h1 {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+#d-wrapper p {
+    text-align: center;
+}
+
+
+/*zig zag effect*/

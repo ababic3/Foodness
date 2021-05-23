@@ -1,0 +1,17 @@
+
+.button2 {
+    background-color: #FF820E;
+    padding: 14px 30px;
+    border-radius: 39px;
+    border: none;
+    color: white;
+    width: 128px;
+}
+
+.button1 {
+    background-color: transparent;
+    padding: 14px 30px;
+    border-radius: 39px;
+    border: 1px solid #FF820E;
+    width: 128px;
+}
